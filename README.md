@@ -7,3 +7,7 @@ The file `test_out.csv` contains the output and its contents should match `test_
 The parameters are collected from .csv data report files in the same directory as the script.
 The list of parameters collected is contained in `param_names.txt`.
 These names must correspond exactly to the strings in the .csv data report.
+
+Quality of life improvements to add:
+- variable output filename
+- method of including subset of data report files

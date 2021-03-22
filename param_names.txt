@@ -1,2 +1,4 @@
 vRespiratory_quotient
 vRQ_Meta
+vN2_prod_l_per_min_STPD
+vN2_cons_l_per_min_STPD

@@ -35,7 +35,10 @@ def get_params_from_data_dict(data_dict, param_name_list):
     param = []
 
     for param_name in param_name_list:
-        param.append(data_dict[param_name])
+        try:
+            param.append(data_dict[param_name])
+        except:
+            param.append("NaN")
 
     return param
 
